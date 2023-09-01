@@ -49,6 +49,32 @@ header {
     cursor: pointer;
 }
 
+.menu_header {
+    color: #242E52;
+    font-family: 'BeVietnamPro', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+
+    display: none;
+}
+
+.menu_header a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+
+    padding: 14px;
+}
+
+.menu_header a:hover {
+    color: rgba(36, 46, 82, 0.60);
+}
+
+header .boton_contact{
+    display: none;
+}
+
 #img_padel {
     width: 400px;
     display: block;
@@ -97,7 +123,7 @@ header {
     line-height: 157.1%;
 }
 
-button {
+.boton_contact {
     width: 134px;
     height: 44px;
 
@@ -150,7 +176,7 @@ button {
     line-height: 151.1%;
 }
 
-.lista_info{
+.lista_info {
     border: solid 1px green;
     position: relative;
 
@@ -212,4 +238,29 @@ button {
     padding-bottom: 30px;
     padding-left: 10px;
     padding-right: 28px;
+}
+
+@media (min-width: 1440px) {
+    header{
+        height: 174px;
+    }
+
+    #logo{
+        margin-left: 140px;
+    }
+
+    .menu_header {
+        display: block;
+        
+    }
+
+    header .boton_contact{
+        display: block;
+        margin-right: 165px;
+    }
+
+    #icono_barras{
+        display: none;
+    }
+
 }
