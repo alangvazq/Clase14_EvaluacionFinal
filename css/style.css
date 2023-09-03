@@ -75,34 +75,46 @@ header .boton_contact{
     display: none;
 }
 
-#img_padel {
-    width: 400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 24px;
-    margin-bottom: 100px;
-}
+
 
 .anuncio {
     border: solid 1px yellow;
 
+
+    /* height: 840px; */
     width: 400px;
-    height: 400px;
 
     display: block;
     margin-left: auto;
     margin-right: auto;
+
+
+    
+
+    margin-bottom: 40px;
+    margin-top: 24px;
+}
+
+.anuncio_texto{
+    border: solid 1px purple;
+
+    width: 400px;
+    height: 400px;
 
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-between;
 
-    margin-bottom: 40px;
 }
 
-.anuncio h1 {
+#img_padel {
+    /* width: 400px; */
+    height: 340px;
+    margin-bottom: 100px;
+}
+
+.anuncio_texto h1 {
     color: #232C50;
     text-align: right;
     font-family: 'BeVietnamPro', sans-serif;
@@ -113,7 +125,7 @@ header .boton_contact{
     letter-spacing: -1.75px;
 }
 
-.anuncio p {
+.anuncio_texto p {
     color: #000;
     text-align: right;
     font-family: 'BeVietnamPro', sans-serif;
@@ -154,8 +166,6 @@ header .boton_contact{
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-
-    margin-bottom: 65px;
 }
 
 .frame_info h1 {
@@ -181,7 +191,13 @@ header .boton_contact{
     position: relative;
 
     width: 446px;
+    margin-top: 65px;
     margin-left: auto;
+
+}
+
+.lista_info_text{
+    border: solid 1px green;
 }
 
 .lista_info h2 {
@@ -237,8 +253,9 @@ header .boton_contact{
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 10px;
-    padding-right: 28px;
+    padding-right: 20px;
 }
+/* padding final 30px */
 
 @media (min-width: 1440px) {
     header{
@@ -257,10 +274,88 @@ header .boton_contact{
     header .boton_contact{
         display: block;
         margin-right: 165px;
+
+        box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
     }
 
     #icono_barras{
         display: none;
     }
+
+    .anuncio{
+        width: auto;
+        
+        display: flex;
+        /* flex-wrap: wrap; */
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 95px;
+        margin-top: 85px;
+    }
+
+    #img_padel{
+        height: 461px;
+
+        margin-bottom: 0;
+        margin-right: 100px;
+    }
+
+    .frame_info{
+        background-color: #8B48BF;
+        height: 168px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .frame_info h1{
+        border: solid 1px white;
+        width: 465px;
+
+        margin-right: 100px;
+    }
+
+    .frame_info p{
+        width: 465px;
+    }
+
+    .lista_info{
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+
+        background: #FAFAFA;
+
+        margin-top: 40px;
+        margin-bottom: 20px;
+        
+    }
+
+    .lista_info_text{
+        width: 553px;
+        height: 158px;
+
+        margin-bottom: 20px;
+        margin-right: 35px;
+        margin-left: 35px;
+    }
+
+    .lista_info_text h3{
+        background-color: #FAFAFA;
+    }
+
+    .lista_info_text p{
+        padding-top: 18px;
+        padding-bottom: 28px;
+        padding-left: 90px;
+        padding-right: 0px;
+
+
+    }
+    /* margen final de 40px */
 
 }
