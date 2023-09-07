@@ -22,3 +22,19 @@ Creación de los siguientes apartados con su respectivo estilo.
 	- 2 encabezados
 	- Párrafo
 
+Ailin Doria Orozco
+Creacion de los siguientes apartos con su respectivo estilo
+
+1.- Seccion con la clase "best_month" incluye:
+	-Titulo
+	-Players
+	-Boton More
+2.- Seccion con la clase "frame_get" incluye:
+	-Titulo
+	-Boton Got for it
+3.- Seccion Footer incluye:
+	-Formulario
+	-Columnas
+	-Iconos
+	-Logotipo
+	-Pie de pagina.
