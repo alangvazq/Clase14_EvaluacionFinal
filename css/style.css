@@ -65,6 +65,8 @@ header {
     cursor: pointer;
 
     padding: 14px;
+
+    transition: all 0.5s;
 }
 
 .menu_header a:hover {
@@ -155,6 +157,16 @@ header .boton_contact{
     cursor: pointer;
 
     border: none;
+
+    transition: opacity 0.1s ;
+}
+
+.boton_contact:hover{
+    opacity: 70%;
+}
+
+.boton_contact:active{
+    scale: 0.98;
 }
 
 .frame_info {
@@ -357,5 +369,6 @@ header .boton_contact{
 
     }
     /* margen final de 40px */
+
 
 }
