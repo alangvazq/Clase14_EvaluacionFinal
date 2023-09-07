@@ -26,7 +26,10 @@
 }
 
 header {
+    border: solid 1px red;
+
     height: 140px;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,12 +38,14 @@ header {
 #logo {
     padding-left: 56px;
     height: 25px;
+
     cursor: pointer;
 }
 
 #icono_barras {
     font-size: 60px;
     padding-right: 56px;
+
     cursor: pointer;
 }
 
@@ -50,6 +55,7 @@ header {
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
+
     display: none;
 }
 
@@ -57,8 +63,8 @@ header {
     text-decoration: none;
     color: inherit;
     cursor: pointer;
+
     padding: 14px;
-    transition: all 0.5s;
 }
 
 .menu_header a:hover {
@@ -69,25 +75,41 @@ header .boton_contact{
     display: none;
 }
 
+
+
 .anuncio {
+    border: solid 1px yellow;
+
+
+    /* height: 840px; */
     width: 400px;
+
     display: block;
     margin-left: auto;
     margin-right: auto;
+
+
+    
+
     margin-bottom: 40px;
     margin-top: 24px;
 }
 
 .anuncio_texto{
+    border: solid 1px purple;
+
     width: 400px;
     height: 400px;
+
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-between;
+
 }
 
 #img_padel {
+    /* width: 400px; */
     height: 340px;
     margin-bottom: 100px;
 }
@@ -116,33 +138,30 @@ header .boton_contact{
 .boton_contact {
     width: 134px;
     height: 44px;
+
     display: flex;
     justify-content: center;
     align-items: center;
+
     border-radius: 50px;
     background: #8B48BF;
+
     color: #FFF;
     font-family: 'BeVietnamPro', sans-serif;
     font-size: 13px;
     font-weight: 500;
     font-style: normal;
+
     cursor: pointer;
+
     border: none;
-    transition: opacity 0.1s ;
-}
-
-.boton_contact:hover{
-    opacity: 70%;
-}
-
-.boton_contact:active{
-    scale: 0.98;
 }
 
 .frame_info {
     background: #3CDDF3;
     height: 306px;
     padding: 40px 20px;
+
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -168,41 +187,57 @@ header .boton_contact{
 }
 
 .lista_info {
+    border: solid 1px green;
     position: relative;
+
     width: 446px;
     margin-top: 65px;
     margin-left: auto;
+
+}
+
+.lista_info_text{
+    border: solid 1px green;
 }
 
 .lista_info h2 {
     width: 70px;
     height: 43px;
+
     border-radius: 30px;
     background: #8B48BF;
+
     color: #FFF;
     font-family: 'BeVietnamPro', sans-serif;
     font-size: 16px;
     font-style: bold;
     font-weight: 700;
+
     display: flex;
     justify-content: center;
     align-items: center;
+
     position: absolute;
 }
 
 .lista_info h3 {
     height: 43px;
     width: 411px;
+
     background: rgba(139, 72, 191, 0.30);
+
     color: #323851;
     font-family: 'BeVietnamPro', sans-serif;
     font-size: 16px;
     font-style: bold;
     font-weight: 700;
     letter-spacing: -0.24px;
+
     display: flex;
     align-items: center;
+
     padding-left: 53px;
+
     margin-left: 35px;
 }
 
@@ -214,6 +249,7 @@ header .boton_contact{
     font-weight: 500;
     line-height: 156.6%;
     letter-spacing: -0.163px;
+
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 10px;
@@ -229,6 +265,7 @@ header .boton_contact{
 .titulo h1 {
     height: 61px;
     width: 424px;
+
     color: rgba(36, 46, 83, 1);
     font-family: 'BeVietnamPro', sans-serif;
     font-weight: 700;
@@ -236,6 +273,7 @@ header .boton_contact{
     font-style: bold;
     line-height: 61.41x;
     letter-spacing: -1px;
+
     margin-top: 110px;
     margin-bottom: 70px;
 }
@@ -249,6 +287,7 @@ header .boton_contact{
 .players{
     width: 445px;
     height: 260px;
+
     background: rgba(250, 250, 250, 1);
 
 }
@@ -259,17 +298,20 @@ header .boton_contact{
 }
 
 .players h2{
+
     color: rgba(63, 72, 104, 1);
     font-family: 'BeVietnamPro', sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 25px;
     letter-spacing: -1px;
+
 }
 
 .players p{
     height: 219px;
     width: 445px;
+
     color: #B3B2B7;
     font-family: 'BeVietnamPro', sans-serif;
     font-size: 16.298px;
@@ -277,6 +319,7 @@ header .boton_contact{
     font-weight: 500;
     line-height: 156.6%;
     letter-spacing: -0.163px;
+
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 10px;
@@ -292,21 +335,229 @@ header .boton_contact{
 .boton_more{
     width: 134px;
     height: 44px;
+
     border-radius: 50px;
     background: rgba(139, 72, 191, 0.7);
+
     color: #FFF;
     font-family: 'BeVietnamPro', sans-serif;
     font-size: 13px;
     font-weight: 500;
     font-style: normal;
+
     margin-top: 70px;
     margin-bottom: 140px;
+
     cursor: pointer;
+
     border: none;
 }
 
+.frame_get {
+    background: #3CDDF3;
+    height: 366px;
+    padding: 40px 20px;
+
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.frame_get h1 {
+    color: #FFF;
+    font-family: 'BeVietnamPro', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: bold;
+    line-height: 114.6%;
+
+    display: flex;
+    text-align: center;
+
+    margin-left: 145px;
+    margin-right: 145px;
+}
+
+.frame_get button{
+    width: 150px;
+    height: 60px;
+    
+    border-radius: 50px;
+    background: rgba(35, 44, 80, 1);
+    
+    color: #FFF;
+    font-family: 'BeVietnamPro', sans-serif;
+    font-size: 13,18px;
+    font-weight: 500;
+    font-style: normal;
+
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 140px;
+    margin-left: 200px;
+
+    cursor: pointer;
+
+    border: none;
+}
+
+footer{
+    height: 640px;
+    padding: 40px 20px;
+
+    background: rgba(30, 30, 38, 1);
+}
+
+footer form{
+    width: 480px;
+    height: 69px;
+
+    display: flex;
+    justify-content: space-between;
+
+    padding: 10px,50px,10px,50px;
+    margin: 10px;
+}
+
+footer input{
+    width: 320px;
+    height: 50px;
+
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 1); 
+
+    color: rgba(160, 160, 160, 1);
+    font-family:'BeVietnamPro', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
 
 
+    padding: 10px;
+    margin: 10px;
+}
+
+.boton_go{
+    width: 70px;
+    height: 50px;
+
+    border-radius: 50px;
+    background: #8B48BF;
+
+    color: #FFF;
+    font-family: 'BeVietnamPro', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 114.6%;
+
+    padding: 10px;
+    margin: 10px;
+
+    cursor: pointer;
+
+    border: none;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 5px;
+    margin-bottom: 50px;
+
+}
+
+footer li{
+    list-style-type:none;
+
+    color: rgba(255, 255, 255, 1);
+    font-family: 'BeVietnamPro', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    font-style: normal;
+
+    margin: 12px;
+
+}
+
+.columnas{
+	display: flex;
+    justify-content: space-between;
+
+    margin-top: 45px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.columna1{
+    display: flex;
+    flex-direction: column;
+}
+
+.columna2{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 40px;
+}
+
+.iconos{
+    width: 480px;
+    height: 42px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px,50px,10px,50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: -10px;
+}
+
+.iconos img{
+    width: 20px;
+    height: 20px;
+}
+
+#logo2{
+
+    display: flex;
+    justify-content: center;
+
+    margin-top: 20px;
+
+}
+
+#logo2 img{
+    width: 160px;
+    height: 70px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 50px;
+}
+
+.copyright h4{
+
+    color: rgba(140, 140, 148, 1);
+    font-family: 'BeVietnamPro', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
 
 
 /* padding final 30px */
@@ -322,11 +573,13 @@ header .boton_contact{
 
     .menu_header {
         display: block;
+        
     }
 
     header .boton_contact{
         display: block;
         margin-right: 165px;
+
         box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
     }
 
@@ -336,7 +589,9 @@ header .boton_contact{
 
     .anuncio{
         width: auto;
+        
         display: flex;
+        /* flex-wrap: wrap; */
         align-items: center;
         justify-content: center;
         margin-bottom: 95px;
@@ -345,6 +600,7 @@ header .boton_contact{
 
     #img_padel{
         height: 461px;
+
         margin-bottom: 0;
         margin-right: 100px;
     }
@@ -352,6 +608,7 @@ header .boton_contact{
     .frame_info{
         background-color: #8B48BF;
         height: 168px;
+
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -360,6 +617,7 @@ header .boton_contact{
     .frame_info h1{
         border: solid 1px white;
         width: 465px;
+
         margin-right: 100px;
     }
 
@@ -373,14 +631,19 @@ header .boton_contact{
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+
+
         background: #FAFAFA;
+
         margin-top: 40px;
         margin-bottom: 20px;
+        
     }
 
     .lista_info_text{
         width: 553px;
         height: 158px;
+
         margin-bottom: 20px;
         margin-right: 35px;
         margin-left: 35px;
@@ -395,7 +658,10 @@ header .boton_contact{
         padding-bottom: 28px;
         padding-left: 90px;
         padding-right: 0px;
+
     }
     /* margen final de 40px */
+
+    
 
 }
