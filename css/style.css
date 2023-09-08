@@ -291,7 +291,6 @@ header .boton_contact{
     width: 445px;
     height: 300px;
 
-    border: 1px solid peru;
     margin-left: 80px;
     margin-right: 80px;
 }
@@ -310,6 +309,8 @@ header .boton_contact{
     font-weight: 700;
     line-height: 25px;
     letter-spacing: -1px;
+
+    margin-top: 20px;
 
 }
 
@@ -350,8 +351,8 @@ header .boton_contact{
     font-weight: 500;
     font-style: normal;
 
-    margin-top: 70px;
-    margin-bottom: 140px;
+    margin-top: 50px;
+    margin-bottom: 70px;
 
     cursor: pointer;
 
@@ -669,12 +670,116 @@ footer li{
 
     }
     /* margen final de 40px */
-
-    .players1,.players2,.players3{
-        width: 445px;
-        height: 260px;
-    
-        background: rgba(250, 250, 250, 1); 
+    .best_month{
+        margin-left: 200px;
+        margin-right: 200px;
     }
 
+    .players:first-child{
+        margin-right: -80px;
+    }
+    .players:nth-child(3){
+        margin-left: -80px;
+    }
+
+    .boton_more{
+        margin-bottom: 150px;
+    }
+
+    .frame_get{
+
+        background-color: #8B48BF;
+        height: 220px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+   
+    }
+
+    .frame_get h1{
+        width: 465px;
+
+        margin-right: 100px;
+
+    }
+
+    .frame_get button{
+        background-color: rgba(255, 255, 255, 1);
+        color: rgba(139, 72, 191, 1);
+
+        margin-bottom: 35px;
+        margin-right: 100px;
+    }
+
+    footer{
+        margin: 0;
+        padding-right: 100px;
+        padding-right: 100px;
+
+        height: 250px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+      /*   padding: 80px,160px,80px,170px; */
+    }
+   
+    #logo2{
+        order: 2;
+    }
+    .iconos{
+        order: 1;
+    }
+    .columnas{
+        order: 3;
+    }
+    .formulario{
+        order: 4;
+    }
+    .copyright{
+        order: 5;
+    }
+
+    .logosRedes{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        margin-left: 200px;
+    }
+
+    .iconos{
+        width: 150px;
+        margin-left: 75px;
+    }
+
+    #logo2{
+        margin-top: -10px;
+    }
+
+    .columnas{
+        height: 140px;
+        width: 470px;
+    }
+
+    footer li{
+        padding-bottom: 7px;
+    }
+
+    footer form{
+        margin-right: -100px;
+        margin-left: 100px;
+    }
+
+    .formulario input{
+        width: 210px;
+    }
+
+    .copyright{
+        margin-left: 1270px;
+        margin-top: -20px;
+    }
+
+
+    
 }
