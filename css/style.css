@@ -397,7 +397,8 @@ header .boton_contact{
     
     border-radius: 50px;
     background: rgba(35, 44, 80, 1);
-    
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+
     color: #FFF;
     font-family: 'BeVietnamPro', sans-serif;
     font-size: 13,18px;
@@ -707,6 +708,7 @@ footer li{
     .frame_get button{
         background-color: rgba(255, 255, 255, 1);
         color: rgba(139, 72, 191, 1);
+        box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
 
         margin-bottom: 35px;
         margin-right: 100px;
@@ -780,6 +782,20 @@ footer li{
         margin-top: -20px;
     }
 
+    .boton_more:active {
+        transform: scale(0.96);
+      }
+      
+      .boton_more:before,
+      .boton_more:after {
+        position: absolute;
+        content: "";
+        width: 150%;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: -1000;
+        background-repeat: no-repeat;
+      }
 
     
 }
