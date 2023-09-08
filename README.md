@@ -1,7 +1,7 @@
-# Clase14_EvaluaciónFinal
+# Evaluación Final
 
-Integrantes: Alan García Vázquez
-
+Integrantes: 	Alan García Vázquez
+		Ailin Doria Orozco
 
 Alan García Vázquez
 Creación de los siguientes apartados con su respectivo estilo.
@@ -23,7 +23,7 @@ Creación de los siguientes apartados con su respectivo estilo.
 	- Párrafo
 
 Ailin Doria Orozco
-Creacion de los siguientes apartos con su respectivo estilo
+Creacion de los siguientes apartos con su respectivo estilo.
 
 1.- Seccion con la clase "best_month" incluye:
 	-Titulo
