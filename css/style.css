@@ -351,7 +351,7 @@ header .boton_contact {
     line-height: 114.6%;
 
     display: flex;
-    text-align: center;
+    text-align: left;
 
     margin-left: 50px;
     margin-right: 50px;
